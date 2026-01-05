@@ -35,9 +35,4 @@ class Solution:
             return dfs(i, curr + coins[i]) + dfs(i+1, curr)
 
         return dfs(0, 0)
-    
-
-
-    
-    
             
